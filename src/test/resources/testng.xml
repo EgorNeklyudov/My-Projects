@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="APITests" parallel="false">
-
-    <test name="TestsGetAPI">
+<suite name="VKApiSuite" parallel="false">
+    <test name="VkApiTest">
         <classes>
-            <class name="apiTest.GetTests"/>
+            <class name="test.VkApiTest"/>
         </classes>
     </test>
-
-    <test name="TestPostAPI">
-        <classes>
-            <class name="apiTest.PostTest"/>
-        </classes>
-    </test>
-
 </suite>

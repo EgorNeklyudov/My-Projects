@@ -1,0 +1,10 @@
+{
+  "testUrl" : "https://vk.com/",
+  "vk_api_url" : "https://api.vk.com",
+  "apiVersion": "5.131",
+  "user_token" : "",
+  "test.userId" : "",
+  "username" : "",
+  "test.image_path" : "src/test/resources/test_image.png",
+  "test.downloaded_image_path" : "src/test/resources/downloadImg.jpg"
+}
