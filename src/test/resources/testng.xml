@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UserInyerfaceSuite" parallel="false">
+    <test name="authorizationAndImageUploadTest">
+        <classes>
+            <class name="userinyerface_com.userinyerfaceTests.AuthorizationAndImageUploadTest"/>
+        </classes>
+    </test>
+
+    <test name="helpButtonTest">
+        <classes>
+            <class name="userinyerface_com.userinyerfaceTests.HelpButtonTest"/>
+        </classes>
+    </test>
+
+    <test name="cookieTest">
+        <classes>
+            <class name="userinyerface_com.userinyerfaceTests.CookieTest"/>
+        </classes>
+    </test>
+
+    <test name="timerTest">
+        <classes>
+            <class name="userinyerface_com.userinyerfaceTests.TimerTest"/>
+        </classes>
+    </test>
+
+</suite>
