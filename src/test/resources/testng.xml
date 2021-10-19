@@ -1,27 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="UserInyerfaceSuite" parallel="false">
-    <test name="authorizationAndImageUploadTest">
+<suite name="APITests" parallel="false">
+
+    <test name="TestsGetAPI">
         <classes>
-            <class name="userinyerface_com.userinyerfaceTests.AuthorizationAndImageUploadTest"/>
+            <class name="apiTest.GetTests"/>
         </classes>
     </test>
 
-    <test name="helpButtonTest">
+    <test name="TestPostAPI">
         <classes>
-            <class name="userinyerface_com.userinyerfaceTests.HelpButtonTest"/>
-        </classes>
-    </test>
-
-    <test name="cookieTest">
-        <classes>
-            <class name="userinyerface_com.userinyerfaceTests.CookieTest"/>
-        </classes>
-    </test>
-
-    <test name="timerTest">
-        <classes>
-            <class name="userinyerface_com.userinyerfaceTests.TimerTest"/>
+            <class name="apiTest.PostTest"/>
         </classes>
     </test>
 
